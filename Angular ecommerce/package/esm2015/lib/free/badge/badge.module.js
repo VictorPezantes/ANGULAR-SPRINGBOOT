@@ -1,0 +1,13 @@
+import { __decorate } from "tslib";
+import { MDBBadgeComponent } from './mdb-badge.component';
+import { NgModule } from '@angular/core';
+let BadgeModule = class BadgeModule {
+};
+BadgeModule = __decorate([
+    NgModule({
+        declarations: [MDBBadgeComponent],
+        exports: [MDBBadgeComponent]
+    })
+], BadgeModule);
+export { BadgeModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmFkZ2UubW9kdWxlLmpzIiwic291cmNlUm9vdCI6Im5nOi8vbmctdWlraXQtcHJvLXN0YW5kYXJkLyIsInNvdXJjZXMiOlsibGliL2ZyZWUvYmFkZ2UvYmFkZ2UubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsaUJBQWlCLEVBQUUsTUFBTSx1QkFBdUIsQ0FBQztBQUMxRCxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBUXpDLElBQWEsV0FBVyxHQUF4QixNQUFhLFdBQVc7Q0FFdkIsQ0FBQTtBQUZZLFdBQVc7SUFMdkIsUUFBUSxDQUFDO1FBQ1IsWUFBWSxFQUFFLENBQUMsaUJBQWlCLENBQUM7UUFDakMsT0FBTyxFQUFFLENBQUMsaUJBQWlCLENBQUM7S0FDN0IsQ0FBQztHQUVXLFdBQVcsQ0FFdkI7U0FGWSxXQUFXIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTURCQmFkZ2VDb21wb25lbnQgfSBmcm9tICcuL21kYi1iYWRnZS5jb21wb25lbnQnO1xuaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuXG5ATmdNb2R1bGUoe1xuICBkZWNsYXJhdGlvbnM6IFtNREJCYWRnZUNvbXBvbmVudF0sXG4gIGV4cG9ydHM6IFtNREJCYWRnZUNvbXBvbmVudF1cbn0pXG5cbmV4cG9ydCBjbGFzcyBCYWRnZU1vZHVsZSB7XG5cbn1cbiJdfQ==

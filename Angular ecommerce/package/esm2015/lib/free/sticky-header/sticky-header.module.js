@@ -1,0 +1,15 @@
+import { __decorate } from "tslib";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { StickyHeaderDirective } from './sticky-header.directive';
+let StickyHeaderModule = class StickyHeaderModule {
+};
+StickyHeaderModule = __decorate([
+    NgModule({
+        declarations: [StickyHeaderDirective],
+        exports: [StickyHeaderDirective],
+        imports: [CommonModule],
+    })
+], StickyHeaderModule);
+export { StickyHeaderModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3RpY2t5LWhlYWRlci5tb2R1bGUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZy11aWtpdC1wcm8tc3RhbmRhcmQvIiwic291cmNlcyI6WyJsaWIvZnJlZS9zdGlja3ktaGVhZGVyL3N0aWNreS1oZWFkZXIubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQUMvQyxPQUFPLEVBQUUscUJBQXFCLEVBQUUsTUFBTSwyQkFBMkIsQ0FBQztBQU9sRSxJQUFhLGtCQUFrQixHQUEvQixNQUFhLGtCQUFrQjtDQUFHLENBQUE7QUFBckIsa0JBQWtCO0lBTDlCLFFBQVEsQ0FBQztRQUNSLFlBQVksRUFBRSxDQUFDLHFCQUFxQixDQUFDO1FBQ3JDLE9BQU8sRUFBRSxDQUFDLHFCQUFxQixDQUFDO1FBQ2hDLE9BQU8sRUFBRSxDQUFDLFlBQVksQ0FBQztLQUN4QixDQUFDO0dBQ1csa0JBQWtCLENBQUc7U0FBckIsa0JBQWtCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBTdGlja3lIZWFkZXJEaXJlY3RpdmUgfSBmcm9tICcuL3N0aWNreS1oZWFkZXIuZGlyZWN0aXZlJztcblxuQE5nTW9kdWxlKHtcbiAgZGVjbGFyYXRpb25zOiBbU3RpY2t5SGVhZGVyRGlyZWN0aXZlXSxcbiAgZXhwb3J0czogW1N0aWNreUhlYWRlckRpcmVjdGl2ZV0sXG4gIGltcG9ydHM6IFtDb21tb25Nb2R1bGVdLFxufSlcbmV4cG9ydCBjbGFzcyBTdGlja3lIZWFkZXJNb2R1bGUge31cbiJdfQ==
